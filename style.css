@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: lightcyan;
+}
+
+h1 {
+	width: 100vw;
+	text-align: center;
+}
+
+article {
+	background-color: lightgoldenrodyellow;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 20px;
+	line-height: 2;
+	word-break: keep-all;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+}
