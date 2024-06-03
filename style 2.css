@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: lightslategray;
+}
+
+h1 {
+	width: 100vw;
+	text-align: center;
+}
+
+nav {
+	background-color: lightgray;
+}
+
+nav > ul > li {
+	border: 2px solid darkgray;
+	width: 150px;
+	align-items: center;
+}
+
+nav > ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article {
+	background-color: lightgrey;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 20px;
+	line-height: 2;
+	word-break: keep-all;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+}
+
+
